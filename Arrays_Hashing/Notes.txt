@@ -1,0 +1,14 @@
+Parsing and performing operations on an array can indeed be time-consuming, especially if the array is large or the operations are complex.
+
+let take the example of Contains duplicate :
+
+
+
+
+
+
+
+
+
+
+
