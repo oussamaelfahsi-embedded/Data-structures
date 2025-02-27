@@ -1,8 +1,27 @@
 Parsing and performing operations on an array can indeed be time-consuming, especially if the array is large or the operations are complex.
 
-let take the example of Contains duplicate :
+For Example, Contains duplicate problem,we can solve this problem using many Methods, let discuss 3 methods : 
+- Brute Force 
+- Sorting
+- Hash Set
+
+1- Brute Force : 
+
+by using two loops,we fix the first one at an index and by comparing it with the reset of value we can easly
+check wether an element is duplicated or not.
+Time & Space complexity of this method : 
+ - Time : O(n^2) because of two loops like we parse the array twise 
+ - Space : O(1) because no extra space is needed 
 
 
+2- Sorting
+In this method, we start by sort elements of the array so checking wether an element is duplicate or not can be done easily just by comparing the element at index i and elements at index i+1
+Time & Space complexity of thi method : 
+ - Time : O(nlog(n))
+ - Space : O(1) or O(n) depending on the sorting algo
+
+3- Set
+Set is a type of data structures that stores no duplicates.
 
 
 

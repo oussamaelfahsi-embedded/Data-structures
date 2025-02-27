@@ -42,7 +42,20 @@ class  Solution{
 		return false;
 		}
 
-		// 
+		// Solution 03 : Set 
+		bool SetSol_hasDuplicate(vector<int>& nums ){
+			std::set<int> check;
+			for( auto index : nums ){
+				if(!check.contains(index)){
+					check.insert(index);
+				}
+			}
+			if(check.size() != nums.size() ){
+				return true;
+			}else{
+				return false;
+			}
+		}
 
 }
 
